@@ -1,0 +1,33 @@
+# Ignore virtual environment
+venv/
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore Python cache files
+__pycache__/
+
+# Ignore node_modules directory for Vue.js
+node_modules/
+
+# Ignore any logs or temporary files
+*.log
+*.swp
+
+# Ignore environment-specific files
+.env
+
+# Ignore database files if you have any
+*.db
+
+# Ignore any IDE or editor-specific files
+.idea/
+.vscode/
+
+# Ignore any generated or build files
+/dist/
+/build/
+*.map
+
+# Ignore any dependencies
+*.lock
