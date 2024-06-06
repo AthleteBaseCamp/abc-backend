@@ -31,3 +31,12 @@ node_modules/
 
 # Ignore any dependencies
 *.lock
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+config.py
+.myenv/*
+myenv/

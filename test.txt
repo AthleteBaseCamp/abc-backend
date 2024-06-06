@@ -1,0 +1,9 @@
+$body = @{
+    name = "Billy Bob"
+    email = "billy.bob@example.com"
+    password = "badpassword"
+    phone_number = "1234567890"
+    is_coach = $false
+} | ConvertTo-Json
+
+Invoke-RestMethod -Uri "http://127.0.0.1:5000/api/users" -Method Post -Body $body -ContentType "application/json"
